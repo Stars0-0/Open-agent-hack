@@ -1,0 +1,5 @@
+{
+  "request_id": "example-001",
+  "user_query": "Why does the sales dashboard revenue for March 2026 not match the finance revenue?",
+  "context": {"track": "The Agent That Can Explain Why"}
+}

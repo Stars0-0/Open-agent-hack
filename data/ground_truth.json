@@ -1,0 +1,11 @@
+{
+  "month": "2026-03",
+  "sales_revenue": 55914.08,
+  "finance_revenue": 50425.32,
+  "gap": 5488.76,
+  "causes": {
+    "cancelled_orders": 4048.89,
+    "month_boundary_timing": -301.61,
+    "refunds": 1741.48
+  }
+}

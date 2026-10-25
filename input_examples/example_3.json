@@ -1,0 +1,5 @@
+{
+  "request_id": "example-003",
+  "user_query": "Two reports show different April 2026 revenue. Which causes explain the gap and how much does each contribute?",
+  "context": {"track": "The Agent That Can Explain Why"}
+}

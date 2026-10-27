@@ -3,10 +3,11 @@
 Source: github.com/Meterless/Meterless/engines/world-model (AGENTS.md + reference/). This is a SUBSET:
 content-addressed stable IDs, an append-only event log folded into entities/relationships/facts,
 superseding relationships, provenance-derived timestamps (so re-ingest is idempotent), an audit log,
-and JSON persistence. NOT ported: fuzzy entity resolution/merge queue, contexts, stories, scoring,
+and JSON persistence (save()). NOT ported: fuzzy entity resolution/merge queue, contexts, stories, scoring,
 control plane. It does not run the TypeScript conformance suite; tests/test_world_model.py checks the
 ported rulings directly.
 """
+from __future__ import annotations
 import hashlib
 import json
 import os
@@ -35,11 +36,11 @@ def entity_id(type_: str, name: str) -> str:
 
 
 def relationship_id(frm, type_, to, context=None, valid_from=None) -> str:
-    return f"rel_{_h(f'{frm}|{type_}|{to}|{context or ''}|{valid_from or ''}')}"
+    return "rel_" + _h("|".join([str(frm), str(type_), str(to), context or "", valid_from or ""]))
 
 
 def fact_id(about, predicate, value, at, source_kind, source_ref=None) -> str:
-    return f"fact_{_h(f'{about}|{predicate}|{canonical_json(value)}|{at}|{source_kind}|{source_ref or ''}')}"
+    return "fact_" + _h("|".join([str(about), str(predicate), canonical_json(value), str(at), str(source_kind), source_ref or ""]))
 
 
 class WorldModel:
@@ -105,13 +106,16 @@ class WorldModel:
                  "payload": payload, "at": payload.get("updatedAt") or payload.get("validFrom") or payload.get("assertedAt")}
         self._apply(event)
         self.audit.append({"seq": len(self.audit) + 1, "kind": kind, "actor": payload["source"]["kind"], "summary": summary})
+
+    def save(self) -> None:
+        """Persist the event log (call once per batch of writes; rewriting per event is quadratic)."""
         if self._file:
-            json.dump({"events": self.events, "audit": self.audit}, open(self._file, "w"), indent=1)
+            with open(self._file, "w") as f:
+                json.dump({"events": self.events, "audit": self.audit}, f)
 
     def _apply(self, event: dict) -> None:
         """Fold one event into state. Re-applying the same facts or edges changes nothing."""
-        if event not in self.events:
-            self.events.append(event)
+        self.events.append(event)
         p = event["payload"]
         if event["kind"] == "upsertEntity":
             cur = self.entities.get(p["id"])

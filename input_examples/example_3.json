@@ -1,5 +1,7 @@
 {
-  "request_id": "example-003",
-  "user_query": "Two reports show different April 2026 revenue. Which causes explain the gap and how much does each contribute?",
-  "context": {"track": "The Agent That Can Explain Why"}
+  "request_id": "example-3",
+  "user_query": "Audit the repair shop Quickfix Auto Body.",
+  "context": {
+    "track": "The Agent That Can Explain Why"
+  }
 }

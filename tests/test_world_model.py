@@ -5,7 +5,7 @@ import os
 os.environ["SAMPLE_MODE"] = "true"
 
 from app.engines.world_model import WorldModel, entity_id, normalize_name  # noqa: E402
-from tests.test_loop import FakeModel  # noqa: E402
+from tests.test_ring import FakeModel  # noqa: E402
 
 S = {"kind": "test", "at": "2026-03-01T00:00:00+00:00", "ref": "SELECT 1"}
 
@@ -43,15 +43,16 @@ def test_new_open_edge_with_different_target_supersedes_old_one():
 def test_persistence_replays_to_same_state(tmp_path):
     wm = WorldModel("t", str(tmp_path))
     wm.assert_fact(wm.upsert_entity("cause", "x", S), "amount", 1, S)
+    wm.save()
     again = WorldModel("t", str(tmp_path))
     assert again.snapshot() == wm.snapshot()
 
 
 def test_agents_share_state_through_world_model():
-    from app.agents import run_agent
-    res = run_agent({"user_query": "Why do the two revenue numbers differ in March 2026?"}, chat=FakeModel())
+    from app.ringbreaker import run_ring
+    res = run_ring({"user_query": "Sweep the book for rings"}, chat=FakeModel())
     stats = res["world_model"]
-    assert stats["entities"] >= 4 and stats["facts"] >= 7 and stats["relationships"] >= 3
+    assert stats["entities"] >= 14 and stats["facts"] >= 14 and stats["relationships"] >= 13
     saved = json.load(open(os.path.join(os.path.dirname(res["log_path"]), "world", res["trace_id"] + ".json")))
     actors = {a["actor"] for a in saved["audit"]}
-    assert {"PlannerAgent", "ExecutorAgent", "EvaluatorAgent"} <= actors  # all three agents wrote to it
+    assert {"ExecutorAgent", "CriticAgent"} <= actors  # executor and critic both wrote to it

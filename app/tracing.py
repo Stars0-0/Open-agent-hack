@@ -1,4 +1,5 @@
 """JSONL trace logging: every agent action goes to logs/<trace_id>.jsonl and stdout."""
+from __future__ import annotations
 import json
 import os
 import time

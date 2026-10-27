@@ -1,5 +1,7 @@
 {
-  "request_id": "example-002",
-  "user_query": "Sales says we booked more in February 2026 than finance says we collected. Explain the difference with evidence.",
-  "context": {"track": "The Agent That Can Explain Why"}
+  "request_id": "example-2",
+  "user_query": "Who else is connected to Bria Brathwaite?",
+  "context": {
+    "track": "The Agent That Can Explain Why"
+  }
 }

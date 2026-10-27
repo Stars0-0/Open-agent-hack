@@ -3,12 +3,14 @@ import csv
 import glob
 import os
 import sqlite3
+import threading
 import uuid
 
 import requests
 
 SAMPLE_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "data", "sample")
 _sample_db = None
+_lock = threading.Lock()  # one shared sqlite connection, hops run in threads
 
 
 def _sample_conn() -> sqlite3.Connection:
@@ -37,9 +39,10 @@ def _sample_conn() -> sqlite3.Connection:
 def run_sql(sql: str, limit: int = 1000) -> list:
     """Send one SQL statement to Zetaris and return its rows. Raises on any failure."""
     if os.getenv("SAMPLE_MODE", "false").lower() == "true":
-        cur = _sample_conn().execute(sql)
-        names = [d[0] for d in cur.description]
-        return [dict(zip(names, r)) for r in cur.fetchmany(limit)]
+        with _lock:
+            cur = _sample_conn().execute(sql)
+            names = [d[0] for d in cur.description]
+            return [dict(zip(names, r)) for r in cur.fetchmany(limit)]
     response = requests.post(
         os.environ["ZETARIS_REST_URL"].rstrip("/") + "/sql-editor/sqls/run",
         headers={

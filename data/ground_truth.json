@@ -1,11 +1,36 @@
 {
-  "month": "2026-03",
-  "sales_revenue": 55914.08,
-  "finance_revenue": 50425.32,
-  "gap": 5488.76,
-  "causes": {
-    "cancelled_orders": 4048.89,
-    "month_boundary_timing": -301.61,
-    "refunds": 1741.48
-  }
+  "ring_claims": [
+    "A0099",
+    "A0100",
+    "A0101",
+    "A0102",
+    "A0103",
+    "A0104",
+    "B0103",
+    "B0104",
+    "B0105",
+    "B0106",
+    "B0107",
+    "C0098",
+    "C0099",
+    "C0100"
+  ],
+  "ring_people": [
+    "Bria Brathwaite",
+    "Carlos Fontaine",
+    "Gavin Cumberbatch",
+    "Marcus Encarnacion",
+    "Sasha Gaspard",
+    "Uma Delgado",
+    "Wendy Harricharan",
+    "Wendy Isidore",
+    "Yara Jaggernauth"
+  ],
+  "ring_shop": "S01",
+  "busy_shop": "S02",
+  "apartment_block": "Tower View Apartments, 1 Ariapita Ave",
+  "family_phone": "868-588-2768",
+  "near_ring_shop": "S05",
+  "ring_exposure": 68376.63,
+  "total_claims": 311
 }

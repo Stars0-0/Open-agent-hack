@@ -1,14 +1,8 @@
-Three separate systems, each loaded into Zetaris as its own source. Dates are ISO text ('YYYY-MM-DD').
-Compare dates with  col >= '2026-03-01' AND col < '2026-04-01'  (no date functions, so any SQL dialect works).
-EDIT the table names below to match how they appear in your Zetaris catalog (for example sales.orders).
+SYNTHETIC data only. Three insurers hold separate claim tables; three directories add context.
+Table names come from env (RB_TABLE_A, RB_TABLE_B, RB_TABLE_C, RB_TABLE_SHOPS, RB_TABLE_ADDRESSES; see .env.example). Defaults match the sample CSV names.
 
-orders    (sales system)    order_id, customer_id, status, order_date, amount
-          status is 'delivered' or 'cancelled'. amount is the order value.
-payments  (finance system)  payment_id, order_id, paid_date, amount
-          one row per payment actually received. Cancelled orders have no payment.
-refunds   (support system)  refund_id, order_id, refund_date, amount
-          money returned to the customer.
-
-Common metric definitions that disagree:
-  Sales dashboard revenue  = SUM(orders.amount) for orders with order_date in the month (all statuses).
-  Finance revenue          = SUM(payments.amount) with paid_date in the month MINUS SUM(refunds.amount) with refund_date in the month.
+insurer_a_claims, insurer_b_claims, insurer_c_claims   (one silo per insurer, same columns)
+    claim_id, claimant_name, phone, address, vin, shop_id, claim_date, amount, narrative
+repair_shops        shop_id, name, address, phone, owner
+address_directory   address, kind ('house' | 'apartment_block'), unit_count
+vehicle_registry    vin, registered_owner, make

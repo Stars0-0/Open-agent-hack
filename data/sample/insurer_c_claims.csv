@@ -1,0 +1,101 @@
+claim_id,claimant_name,phone,address,vin,shop_id,claim_date,amount,narrative
+C0001,Zane Ferreira,868-348-8316,"Tower View Apartments, 1 Ariapita Ave",VIN425774624,S06,2026-02-27,7458.12,Rear-end collision at junction.
+C0002,Uma Baptiste,868-604-7490,"Tower View Apartments, 1 Ariapita Ave",VIN586399530,S06,2026-01-26,1411.64,Rear-end collision at junction.
+C0003,Omar Baptiste,868-432-6636,197 Southern Main Rd,VIN755007377,S02,2026-06-19,2488.87,Rear-end collision at junction.
+C0004,Gavin Yearwood,868-402-3396,198 Cipero St,VIN176720394,S10,2026-05-23,3934.38,Rear-end collision at junction.
+C0005,Isaac Ollivierre,868-477-9418,199 Southern Main Rd,VIN855508218,S04,2026-07-17,4889.75,Rear-end collision at junction.
+C0006,Dana Joseph,868-787-2280,200 Eastern Main Rd,VIN826581566,S08,2026-08-17,8462.87,Rear-end collision at junction.
+C0007,Xavier Narine,868-627-2051,201 Mucurapo Rd,VIN494126925,S02,2026-07-20,3178.47,Rear-end collision at junction.
+C0008,Omar Valdez,868-655-1207,202 Cipero St,VIN821622877,S02,2026-04-10,4233.39,Rear-end collision at junction.
+C0009,Isaac Mohammed,868-352-2709,203 Sangre Grande Rd,VIN686183901,S02,2026-02-24,8161.8,Rear-end collision at junction.
+C0010,Aaron Lewis,868-759-1380,204 Eastern Main Rd,VIN817228911,S09,2026-03-25,1487.58,Rear-end collision at junction.
+C0011,Farah Ollivierre,868-643-1997,205 Mucurapo Rd,VIN338635620,S02,2026-01-22,4410.29,Rear-end collision at junction.
+C0012,Rohan Williams,868-536-7574,206 Eastern Main Rd,VIN948521991,S04,2026-04-26,8917.04,Rear-end collision at junction.
+C0013,Gavin Persad,868-349-2368,207 Cipero St,VIN103872812,S10,2026-03-18,6273.22,Rear-end collision at junction.
+C0014,Xavier Persad,868-308-7077,208 Eastern Main Rd,VIN493184650,S06,2026-01-13,3743.95,Rear-end collision at junction.
+C0015,Rohan Ramkissoon,868-454-9311,209 Mucurapo Rd,VIN705606067,S04,2026-02-12,5499.78,Rear-end collision at junction.
+C0016,Carlos Quamina,868-480-5028,210 Mucurapo Rd,VIN364972876,S02,2026-07-24,1339.82,Rear-end collision at junction.
+C0017,Gavin Seecharan,868-353-8526,211 Sangre Grande Rd,VIN247803867,S02,2026-02-26,2154.25,Rear-end collision at junction.
+C0018,Sasha Quamina,868-511-1175,212 Southern Main Rd,VIN345761998,S04,2026-03-13,6848.94,Rear-end collision at junction.
+C0019,Wendy Mohammed,868-616-1467,213 Southern Main Rd,VIN534818471,S02,2026-02-25,3336.13,Rear-end collision at junction.
+C0020,Bria Mohammed,868-409-5273,214 Sangre Grande Rd,VIN676307949,S02,2026-02-23,3563.17,Rear-end collision at junction.
+C0021,Priya Gopaul,868-501-5904,215 Mucurapo Rd,VIN387137384,S04,2026-05-17,3879.65,Rear-end collision at junction.
+C0022,Nia Persad,868-520-6470,216 Sangre Grande Rd,VIN584062771,S01,2026-02-11,3420.36,Rear-end collision at junction.
+C0023,Quinn Baptiste,868-504-4648,217 Southern Main Rd,VIN824817977,S09,2026-02-21,1162.46,Rear-end collision at junction.
+C0024,Xavier Quamina,868-508-2719,218 Sangre Grande Rd,VIN107599657,S09,2026-06-17,3861.66,Rear-end collision at junction.
+C0025,Gavin Thomas,868-394-9153,219 Mucurapo Rd,VIN226599714,S02,2026-09-21,1329.66,Rear-end collision at junction.
+C0026,Isaac Narine,868-592-2593,220 Cipero St,VIN191765082,S08,2026-07-17,7635.45,Rear-end collision at junction.
+C0027,Kyle Edwards,868-329-9033,221 Southern Main Rd,VIN151486464,S08,2026-07-12,5371.93,Rear-end collision at junction.
+C0028,Kyle Updike,868-596-9959,222 Eastern Main Rd,VIN105990575,S07,2026-08-23,3617.2,Rear-end collision at junction.
+C0029,Uma Chen,868-650-3294,223 Southern Main Rd,VIN505699681,S11,2026-08-23,7389.43,Rear-end collision at junction.
+C0030,Carlos Dookhan,868-659-2939,224 Cipero St,VIN526458410,S04,2026-05-27,1822.4,Rear-end collision at junction.
+C0031,Nia Khan,868-785-3021,225 Mucurapo Rd,VIN266509431,S02,2026-05-25,4201.59,Rear-end collision at junction.
+C0032,Nia Mohammed,868-552-8155,226 Southern Main Rd,VIN840415565,S11,2026-07-26,7206.56,Rear-end collision at junction.
+C0033,Xavier Ferreira,868-307-6673,227 Mucurapo Rd,VIN983955361,S02,2026-03-21,3953.74,Rear-end collision at junction.
+C0034,Zane Quamina,868-483-3422,228 Sangre Grande Rd,VIN615906996,S11,2026-07-20,1632.31,Rear-end collision at junction.
+C0035,Priya Henry,868-510-1739,229 Cipero St,VIN376011496,S01,2026-02-18,3958.33,Rear-end collision at junction.
+C0036,Wendy Gopaul,868-586-3944,230 Sangre Grande Rd,VIN544273533,S04,2026-09-24,4032.47,Rear-end collision at junction.
+C0037,Farah Zephyr,868-456-9202,231 Mucurapo Rd,VIN261348191,S02,2026-01-21,5501.42,Rear-end collision at junction.
+C0038,Rohan Persad,868-786-6845,232 Cipero St,VIN965168810,S11,2026-05-13,2901.17,Rear-end collision at junction.
+C0039,Lena Dookhan,868-760-7040,233 Southern Main Rd,VIN840106786,S06,2026-06-21,1782.41,Rear-end collision at junction.
+C0040,Troy Yearwood,868-483-1333,234 Cipero St,VIN285213951,S02,2026-09-18,6308.93,Rear-end collision at junction.
+C0041,Jada Ince,868-548-2241,235 Mucurapo Rd,VIN392720460,S02,2026-01-19,7328.33,Rear-end collision at junction.
+C0042,Quinn Edwards,868-740-9919,236 Sangre Grande Rd,VIN240555614,S02,2026-02-27,7381.82,Rear-end collision at junction.
+C0043,Farah Ramkissoon,868-456-1890,237 Mucurapo Rd,VIN558617266,S08,2026-06-27,2790.77,Rear-end collision at junction.
+C0044,Lena Lewis,868-589-6714,238 Southern Main Rd,VIN349308934,S08,2026-02-27,1793.09,Rear-end collision at junction.
+C0045,Carlos Joseph,868-589-2961,239 Eastern Main Rd,VIN309701534,S02,2026-06-19,3764.29,Rear-end collision at junction.
+C0046,Victor Valdez,868-511-3342,240 Eastern Main Rd,VIN835658474,S02,2026-09-27,1525.26,Rear-end collision at junction.
+C0047,Quinn Valdez,868-655-6803,241 Southern Main Rd,VIN757692973,S02,2026-08-16,8025.04,Rear-end collision at junction.
+C0048,Dana Narine,868-655-8978,242 Southern Main Rd,VIN131722408,S04,2026-09-27,1621.28,Rear-end collision at junction.
+C0049,Wendy Ince,868-739-8006,243 Southern Main Rd,VIN952619969,S06,2026-01-25,7343.16,Rear-end collision at junction.
+C0050,Victor Seecharan,868-777-3777,244 Mucurapo Rd,VIN192771059,S09,2026-09-15,8671.74,Rear-end collision at junction.
+C0051,Bria Dookhan,868-454-1394,245 Eastern Main Rd,VIN544747743,S02,2026-01-14,7620.94,Rear-end collision at junction.
+C0052,Wendy Thomas,868-300-7082,246 Mucurapo Rd,VIN172916192,S04,2026-04-22,7650.41,Rear-end collision at junction.
+C0053,Lena Mohammed,868-434-1783,247 Eastern Main Rd,VIN728822117,S07,2026-06-26,6755.28,Rear-end collision at junction.
+C0054,Lena Ollivierre,868-389-4290,248 Southern Main Rd,VIN261026024,S10,2026-04-18,4555.98,Rear-end collision at junction.
+C0055,Farah Henry,868-567-5176,249 Mucurapo Rd,VIN715668596,S02,2026-01-15,3417.82,Rear-end collision at junction.
+C0056,Bria Henry,868-650-9251,250 Mucurapo Rd,VIN362470852,S02,2026-08-16,1263.86,Rear-end collision at junction.
+C0057,Rohan Edwards,868-766-2198,251 Cipero St,VIN996940653,S04,2026-07-14,4294.73,Rear-end collision at junction.
+C0058,Victor Henry,868-494-5703,252 Cipero St,VIN703702568,S07,2026-02-25,8792.37,Rear-end collision at junction.
+C0059,Aaron Baptiste,868-788-2066,253 Sangre Grande Rd,VIN556181691,S02,2026-03-14,1447.92,Rear-end collision at junction.
+C0060,Farah Persad,868-370-3232,254 Southern Main Rd,VIN252211001,S09,2026-06-11,2460.58,Rear-end collision at junction.
+C0061,Elan Williams,868-488-7099,255 Southern Main Rd,VIN880409472,S11,2026-02-18,2086.18,Rear-end collision at junction.
+C0062,Carlos Ferreira,868-457-6263,256 Cipero St,VIN296324285,S04,2026-02-18,5167.93,Rear-end collision at junction.
+C0063,Omar Zephyr,868-347-2335,257 Mucurapo Rd,VIN801775529,S02,2026-04-10,1521.21,Rear-end collision at junction.
+C0064,Jada Zephyr,868-794-6413,258 Mucurapo Rd,VIN785264059,S02,2026-02-19,4817.5,Rear-end collision at junction.
+C0065,Troy Ollivierre,868-538-1639,259 Cipero St,VIN304860877,S11,2026-03-25,8821.06,Rear-end collision at junction.
+C0066,Aaron Ollivierre,868-444-3667,260 Mucurapo Rd,VIN148856981,S03,2026-03-22,6864.73,Rear-end collision at junction.
+C0067,Gavin Alleyne,868-709-9178,261 Eastern Main Rd,VIN757340412,S02,2026-02-24,1099.47,Rear-end collision at junction.
+C0068,Kyle Alleyne,868-321-6514,262 Southern Main Rd,VIN379794322,S02,2026-09-21,6470.67,Rear-end collision at junction.
+C0069,Farah Lewis,868-519-9849,263 Southern Main Rd,VIN730164079,S10,2026-08-18,3592.71,Rear-end collision at junction.
+C0070,Victor Thomas,868-691-3801,264 Southern Main Rd,VIN876737505,S08,2026-06-17,5395.08,Rear-end collision at junction.
+C0071,Marcus Ferreira,868-349-1052,265 Cipero St,VIN472701206,S02,2026-08-27,1807.81,Rear-end collision at junction.
+C0072,Victor Alleyne,868-593-8573,266 Sangre Grande Rd,VIN160517323,S11,2026-02-20,4929.77,Rear-end collision at junction.
+C0073,Aaron Ince,868-443-1828,267 Mucurapo Rd,VIN351768336,S04,2026-07-11,2962.65,Rear-end collision at junction.
+C0074,Lena Ramkissoon,868-739-8900,268 Eastern Main Rd,VIN262648788,S11,2026-05-20,7713.28,Rear-end collision at junction.
+C0075,Kyle Gopaul,868-711-5895,269 Southern Main Rd,VIN817199125,S11,2026-03-17,7359.16,Rear-end collision at junction.
+C0076,Dana Persad,868-770-1374,270 Cipero St,VIN649555214,S03,2026-06-25,7313.23,Rear-end collision at junction.
+C0077,Marcus Updike,868-356-5254,271 Eastern Main Rd,VIN409295366,S06,2026-07-19,2959.24,Rear-end collision at junction.
+C0078,Troy Updike,868-523-7677,272 Southern Main Rd,VIN925323631,S03,2026-07-10,5510.09,Rear-end collision at junction.
+C0079,Marcus Williams,868-752-3638,273 Cipero St,VIN636767463,S02,2026-04-17,6194.35,Rear-end collision at junction.
+C0080,Yara Dookhan,868-538-5470,274 Southern Main Rd,VIN841807509,S09,2026-03-10,6147.5,Rear-end collision at junction.
+C0081,Victor Zephyr,868-774-1889,275 Eastern Main Rd,VIN128591777,S02,2026-05-27,8611.53,Rear-end collision at junction.
+C0082,Troy Joseph,868-355-5576,276 Sangre Grande Rd,VIN333540927,S09,2026-09-25,1433.53,Rear-end collision at junction.
+C0083,Dana Williams,868-687-9620,277 Mucurapo Rd,VIN368201203,S02,2026-05-16,8455.46,Rear-end collision at junction.
+C0084,Lena Henry,868-335-6567,278 Sangre Grande Rd,VIN156016866,S02,2026-06-19,5168.0,Rear-end collision at junction.
+C0085,Uma Ramkissoon,868-771-4856,279 Sangre Grande Rd,VIN947887699,S02,2026-08-12,1887.8,Rear-end collision at junction.
+C0086,Victor Narine,868-600-9866,280 Mucurapo Rd,VIN550617005,S08,2026-01-26,1607.03,Rear-end collision at junction.
+C0087,Bria Thomas,868-796-5465,281 Southern Main Rd,VIN945219878,S02,2026-06-18,7112.3,Rear-end collision at junction.
+C0088,Wendy Baptiste,868-799-2746,282 Sangre Grande Rd,VIN609864948,S02,2026-04-18,8096.43,Rear-end collision at junction.
+C0089,Omar Edwards,868-506-4931,283 Sangre Grande Rd,VIN831557102,S07,2026-07-11,1604.12,Rear-end collision at junction.
+C0090,Sasha Edwards,868-542-7596,284 Southern Main Rd,VIN118070994,S02,2026-07-12,6918.22,Rear-end collision at junction.
+C0091,Xavier Ollivierre,868-788-5017,285 Mucurapo Rd,VIN896186896,S02,2026-08-28,7977.45,Rear-end collision at junction.
+C0092,Uma Dookhan,868-413-9336,286 Cipero St,VIN719537965,S02,2026-07-22,7945.03,Rear-end collision at junction.
+C0093,Bria Chen,868-639-8157,287 Cipero St,VIN319802292,S09,2026-08-23,3455.9,Rear-end collision at junction.
+C0094,Nia Joseph,868-676-8758,288 Mucurapo Rd,VIN771657108,S11,2026-09-24,6240.2,Rear-end collision at junction.
+C0095,Zane Mohammed,868-417-8450,289 Eastern Main Rd,VIN567193799,S08,2026-04-19,2730.51,Rear-end collision at junction.
+C0096,Sasha Williams,868-513-6644,290 Sangre Grande Rd,VIN922896260,S02,2026-07-18,1631.6,Rear-end collision at junction.
+C0097,Marcus Henry,868-789-4221,291 Sangre Grande Rd,VIN902539998,S02,2026-07-11,4935.01,Rear-end collision at junction.
+C0098,Wendy Harricharan,868-579-3755,18 Penal Rock Rd,VINRING0001,S01,2026-06-16,3979.4,"Vehicle struck while parked, third party fled, towed to shop same day."
+C0099,Wendy Isidore,868-440-3399,6 Gasparillo Rd,VINRING0002,S01,2026-06-28,5252.35,"Vehicle struck while parked, third party fled, towed to shop same day."
+C0100,Yara Jaggernauth,868-312-9839,41 Moruga Rd,VINRING0002,S01,2026-06-22,6223.68,"Vehicle struck while parked, third party fled, towed to shop same day."
